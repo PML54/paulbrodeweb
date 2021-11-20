@@ -33675,7 +33675,7 @@ if(n===0)l.push(p)}C.c.eM(l)},
 bm(){this.fO(0)},
 P(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="Increment"
 i.a.toString
-s=L.tT("Saint Brice  2.06 ",h,h,h,h)
+s=L.tT("Saint Brice  2.07 ",h,h,h,h)
 r=i.d
 q=i.e
 p=i.f
@@ -33686,7 +33686,7 @@ m=L.tT(i.fr[i.fx].f,h,h,h,h)
 l=E.kn(C.zJ,!1,i.gS5(),"-1\u20ac")
 k=L.tT(i.x,h,h,h,h)
 j=t.F
-return new M.th(new E.ps(s,new E.Hh(h,h,1/0,56),h),T.C2(H.a([new U.qD(r,q,p,C.hG,h),T.aiv(H.a([o,n,new D.Be(new F.a_R(),h,h,h,h,C.k,h,C.DI,h,h,h,h,h,h,h,h,h,h,h,m,h,h,h,C.G,h,!1,h,h,h),T.C2(H.a([l,new D.yE(new F.a_S(i),h,D.a8S(h,h,h,h,h,h,h,h,h,h,h,C.DG,h,h,h,h,h,h,h),C.G,h,!1,k,h),E.kn(C.zK,!1,i.gSQ(),"+1\u20ac"),E.kn(C.zL,!1,i.ga_4(),"Save")],j),C.bh,C.bO,C.bP),T.C2(H.a([E.kn(C.iy,!1,i.gRp(),g),E.kn(C.iz,!1,i.gOE(),g)],j),C.bh,C.bO,C.bP),new T.fV(C.bj,L.tT("   Objet N\xb0 "+C.f.h(i.fx+1)+" / "+C.f.h(i.fy),C.b9,C.GA,C.bq,h),h)],j),C.bO)],j),C.bh,C.bO,C.bP),T.C2(H.a([E.kn(C.iy,!1,i.gNT(),"Au Pr\xe9c\xe9dent"),L.tT("   B"+C.f.h(i.cy)+" = "+C.f.h(i.go)+" \u20ac   ",C.b9,C.Gp,C.bq,h),E.kn(C.iz,!1,i.gNR(),"Au Suivant")],j),C.bh,C.nN,C.bP),h)}}
+return new M.th(new E.ps(s,new E.Hh(h,h,1/0,56),h),T.C2(H.a([new U.qD(r,q,p,C.hG,h),T.aiv(H.a([o,n,new D.Be(new F.a_R(),h,h,h,h,C.k,h,C.DI,h,h,h,h,h,h,h,h,h,h,h,m,h,h,h,C.G,h,!1,h,h,h),T.C2(H.a([l,new D.yE(new F.a_S(i),h,D.a8S(h,h,h,h,h,h,h,h,h,h,h,C.DG,h,h,h,h,h,h,h),C.G,h,!1,k,h),E.kn(C.zK,!1,i.gSQ(),"+1\u20ac"),E.kn(C.zL,!1,i.ga_4(),"Save")],j),C.bh,C.bO,C.bP),T.C2(H.a([E.kn(C.iy,!1,i.gOE(),g),new T.fV(C.bj,L.tT(C.f.h(i.fx+1)+" / "+C.f.h(i.fy),C.b9,C.GA,C.bq,h),h),E.kn(C.iz,!1,i.gRp(),g)],j),C.bh,C.bO,C.bP)],j),C.bO)],j),C.bh,C.bO,C.bP),T.C2(H.a([E.kn(C.iy,!1,i.gNT(),"Au Pr\xe9c\xe9dent"),L.tT("   B"+C.f.h(i.cy)+" = "+C.f.h(i.go)+" \u20ac   ",C.b9,C.Gp,C.bq,h),E.kn(C.iz,!1,i.gNR(),"Au Suivant")],j),C.bh,C.nN,C.bP),h)}}
 F.a_W.prototype={
 $0(){var s=this.a,r=s.fr
 C.c.cg(r,new F.a_V())
@@ -33747,17 +33747,15 @@ H.c7(m.i(a,"descriptif"))
 return new Q.eG(l,s,r,q,p)},
 $S:123}
 F.a_J.prototype={
-$0(){var s=this.a,r=s.fx++
-s.fx=r
-if(r>=s.fy)s.fx=0
+$0(){var s=this.a
+if(++s.fx>=s.fy)s.fx=0
 s.d="briceton/"+C.f.h(s.cy)+"/"+C.f.h(s.fx+1)+".jpeg"
 s.r=s.fr[s.fx].r
 s.x="?"},
 $S:0}
 F.a_I.prototype={
-$0(){var s=this.a,r=s.fx--
-s.fx=r
-if(r<0)s.fx=0
+$0(){var s=this.a
+if(--s.fx<0)s.fx=0
 s.d="briceton/"+C.f.h(s.cy)+"/"+C.f.h(s.fx+1)+".jpeg"
 s.r=s.fr[s.fx].r
 s.x="?"},
