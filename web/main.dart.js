@@ -33646,11 +33646,8 @@ for(r=o.z,q=r.length;s<r.length;r.length===q||(0,H.F)(r),++s){p=r[s]
 if(p.c===o.cy){n.push(p)
 o.fx=o.fx+p.r}}C.c.cj(n,new F.a_U())
 o.av(new F.a_V(o))},
-S3(){var s=this,r=s.dx[s.dy],q=r.r-1
-r.r=q<1?1:q
-s.av(new F.a_J(s))},
-SO(){var s=this;++s.dx[s.dy].r
-s.av(new F.a_K(s))},
+S3(){this.av(new F.a_J(this))},
+SO(){this.av(new F.a_K(this))},
 NR(){this.av(new F.a_G(this))},
 NT(){this.av(new F.a_H(this))},
 qq(){var s=0,r=P.a7(t.z),q=this,p,o
@@ -33679,7 +33676,7 @@ if(m===0)k.push(o)}C.c.eN(k)},
 bn(){this.fP(0)},
 P(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null
 i.a.toString
-s=L.tT("Saint Brice  2.03 ",h,h,h,h)
+s=L.tT("Saint Brice  2.04 ",h,h,h,h)
 r=i.d
 q=i.e
 p=i.f
@@ -33706,12 +33703,13 @@ s.r=r
 s.x=C.f.h(r)+" \u20ac"},
 $S:0}
 F.a_J.prototype={
-$0(){var s=this.a,r=s.dx[s.dy].r
-s.r=r
-s.x=C.f.h(r)+" \u20ac"},
+$0(){var s=this.a,r=s.dx[s.dy],q=r.r-1
+if(q<1)q=1
+s.r=r.r=q
+s.x=C.f.h(q)+" \u20ac"},
 $S:0}
 F.a_K.prototype={
-$0(){var s=this.a,r=s.dx[s.dy].r
+$0(){var s=this.a,r=++s.dx[s.dy].r
 s.r=r
 s.x=C.f.h(r)+" \u20ac"},
 $S:0}
